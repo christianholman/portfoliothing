@@ -39,6 +39,11 @@ const serializers = {
   const post = data.post
   return (
     <Layout>
+      <SEO
+          description={`'${post.title}' in Christian Holman's journal`}
+          title={post.title}
+          lang="en"
+      />
       <div className="blog-post-image"
       style={{
         backgroundImage: `url(${post.mainImage.asset.url})`

@@ -2,6 +2,7 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
+import SEO from '../components/seo'
 
 export const blogListQuery = graphql`
 
@@ -41,6 +42,11 @@ export default class BlogList extends React.Component {
         const nextPage = 'journal/' + (currentPage + 1).toString()
         return (
             <Layout>
+            <SEO
+                description="Christian Holman's journal, where he posts stuff and things related to him."
+                title="Journal"
+                lang="en"
+            />
             <span className="text-xl sm:text-2xl text-blackish"><span className="underlined font-bold">Journal</span></span>
             {
                 

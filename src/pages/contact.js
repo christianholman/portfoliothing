@@ -10,7 +10,7 @@ export default class ContactPage extends React.Component {
             <Layout>
                 <SEO
                     description="Christian Holman contact details and social medias."
-                    title="Christian Holman - Contact"
+                    title="Contact"
                     lang="en"
                 />
                 <span className="text-xl sm:text-2xl text-blackish"><span className="underlined font-bold">Get in touch</span></span>

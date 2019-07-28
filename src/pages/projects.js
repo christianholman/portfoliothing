@@ -29,6 +29,11 @@ export const query = graphql`
 
 const IndexPage = ({ data }) => (
     <Layout>
+        <SEO
+            description="Christian Holman's most important projects."
+            title="Projects"
+            lang="en"
+        />
         <span className="text-xl sm:text-2xl text-blackish"><span className="underlined font-bold">Projects</span></span>
         <p className="text-lg sm:text-xl text-blackish font-light mt-2">
             These are projects that I am especially proud of over the years. In addition to these, you can find more on my <a className="underlined underlined-blue" href="http://github.com/christianholman" target="_blank">github</a>.

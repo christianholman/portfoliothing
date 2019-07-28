@@ -21,6 +21,11 @@ export const query = graphql`
 
 const IndexPage = ({ data }) => (
   <Layout>
+      <SEO
+          description="Christian Holman's page on the internet."
+          title="Home"
+          lang="en"
+      />
       <span class="w-full text-xl sm:text-2xl text-blackish">Hi, I'm <span className="underlined font-bold">Christian Holman</span></span>
       <p className="text-lg sm:text-xl text-blackish font-light mt-2">
           I am a high-school student, developer, AI-advocate, and aspiring entrepeneur. On this site you can find my <Link to="/projects" className="underlined underlined-blue">projects</Link>, <Link to="/journal" className="underlined underlined-blue">journal</Link>, and <Link to="/contact" className="underlined underlined-blue">contact information</Link>.
