@@ -3,7 +3,7 @@ import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import SocialMedia from "../components/socialmedia";
+import SocialMedia from '../components/socialmedia'
 
 export const query = graphql`
 {
@@ -34,9 +34,9 @@ const IndexPage = ({ data }) => (
           <br/>
           <span className="italic font-base">Christian Holman</span>
       </p>
-
-      <SocialMedia />
-
+      <div className="text-center w-full text-3xl p-5">
+        <SocialMedia />
+      </div>
   </Layout>
 )
 

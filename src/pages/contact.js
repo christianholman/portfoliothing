@@ -12,7 +12,9 @@ export default class ContactPage extends React.Component {
                     If you would like to work with me, or speak with me for any reason, feel free to hit me up on any social media below or by e-mail at <a className="underlined underlined-blue" href="mailto:chrisholm2@yahoo.com">chrisholm2@yahoo.com</a>
                     <br/>
                 </p>
-                <SocialMedia className="text-xl"/>
+                <div className="text-center w-full text-3xl p-5">
+                    <SocialMedia />
+                </div>
             </Layout>
         );
     }

@@ -127,5 +127,5 @@ body {
 
 .social-media-icon {
     @apply text-blackish;
-    @apply mr-2;
+    @apply mx-2;
 }
