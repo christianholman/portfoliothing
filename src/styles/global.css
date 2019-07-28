@@ -124,3 +124,8 @@ body {
     @apply w-full;
     @apply my-4;
 }
+
+.social-media-icon {
+    @apply text-blackish;
+    @apply mr-2;
+}
