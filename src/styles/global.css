@@ -1,0 +1,126 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i&display=swap');
+
+body {
+    @apply bg-cream;
+    font-family: 'Merriweather', serif;
+}
+
+.underlined {
+    position: relative;
+    text-decoration: none;
+}
+
+.underlined:before {
+    content: "";
+    position: absolute;
+    bottom: 3px;
+    width: 100%;
+    height: 10px;
+    background-color: #FAF089;
+    z-index: -1;
+}
+
+.underlined-blue::before {
+    background-color: #bee3f8;
+}
+
+.underlined-interactable {
+    transition: .2s linear all;
+}
+
+.underlined-interactable:hover {
+    cursor: pointer;
+}
+
+.header-title {
+    @apply italic;
+}
+
+.header-right a {
+    @apply mr-2;
+    @apply text-grayish;
+}
+
+.header-right a.active {
+    @apply font-bold;
+    @apply text-blackish;
+}
+
+.journal-entry {
+    @apply flex;
+    @apply w-full;
+    @apply h-48;
+    @apply bg-black;
+
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.journal-entry-tint {
+    background: rgba(0,0,0,0.8);
+    transition: .1s linear;
+}
+
+.journal-entry-tint:hover {
+    background: rgba(0,0,0,0.5);
+}
+
+.pagination-list {
+    @apply my-5;
+    @apply flex;
+    @apply w-full;
+    @apply justify-center;
+}
+
+.pagination {
+    @apply p-2;
+    @apply rounded;
+    @apply w-auto;
+}
+
+.pagination-active {
+    @apply bg-blue-900;
+}
+
+.blog-post-image {
+    @apply h-32;
+    @apply w-full;
+    @apply journal-entry;
+    @apply rounded;
+    @apply overflow-hidden;
+    @apply my-3;
+
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: rgba(0,0,0,0.5);
+
+}
+
+.blog-post-image-tint {
+    @apply w-full;
+    @apply h-full;
+    background: rgba(0,0,0,0.4);
+}
+
+.blog-post-title {
+    @apply text-2xl;
+    @apply mb-4;
+}
+
+.blog-post-published-at {
+    @apply text-sm;
+}
+
+.blog-block {
+    @apply w-full;
+    @apply my-4;
+}
