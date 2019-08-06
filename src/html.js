@@ -16,7 +16,7 @@ export default function HTML(props) {
           {}
         </script>
       </head>
-      <body {...props.bodyAttributes}>
+      <body {...props.bodyAttributes} className="antialiased">
         {props.preBodyComponents}
         <noscript key="noscript" id="gatsby-noscript">
           This app works best with JavaScript enabled.
