@@ -22,7 +22,7 @@ export default class SocialMedia extends React.Component {
         {
             'name': 'E-mail',
             'icon': 'fas fa-envelope',
-            'url': 'mailto:chrisholm2@yahoo.com',
+            'url': 'mailto:c.holman@zohomail.eu',
         }
     ]
 
