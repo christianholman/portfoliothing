@@ -15,7 +15,7 @@ export default class ContactPage extends React.Component {
                 />
                 <span className="text-xl sm:text-2xl text-blackish"><span className="underlined font-bold">Get in touch</span></span>
                 <p className="text-lg sm:text-xl text-blackish font-light mt-2">
-                    If you would like to work with me, or speak with me for any reason, feel free to hit me up on any social media below or by e-mail at <a className="underlined underlined-blue" href="mailto:chrisholm2@yahoo.com">chrisholm2@yahoo.com</a>
+                    If you would like to work with me, or speak with me for any reason, feel free to hit me up on any social media below or by e-mail at <a className="underlined underlined-blue" href="mailto:c.holman@zohomail.eu">c.holman@zohomail.eu</a>
                     <br/>
                 </p>
                 <div className="text-center w-full text-3xl p-5">
