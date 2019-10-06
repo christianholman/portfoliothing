@@ -7,7 +7,7 @@ export default class SocialMedia extends React.Component {
         {
             'name': 'Twitter',
             'icon': 'fab fa-twitter',
-            'url': 'https://twitter.com/bigluxio',
+            'url': 'https://twitter.com/0xHolman',
         },
         {
             'name': 'Github',
