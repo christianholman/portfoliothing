@@ -43,16 +43,19 @@ const IndexPage = ({ data }) => (
             data.allSanityProject.edges.map(({node: project}) => {
                 return (
                     <div className="project my-5">
-                        <div className="flex items-center">
-                            <a href={project.url} target="_blank" className="italic text-blackish font-bold underlined underlined-blue">{project.title} </a> {project.categories.map((category => {
-                                return (
-                                    <span className="text-xs font-base uppercase px-1 ml-2 rounded" style={
-                                        {
-                                            backgroundColor: category.color.hex
-                                        }
-                                    }>{category.category}</span>
-                                )
-                            }))}
+                        <div className="flex flex-col items-start">
+                            <a href={project.url} target="_blank" className="text-lg  text-blackish font-bold underlined underlined-blue">{project.title} </a> 
+{/*                             <div className="flex">
+                                {project.categories.map((category => {
+                                        return (
+                                        <span className="text-xs font-base uppercase px-1 my-2 mr-2 rounded" style={
+                                            {
+                                                backgroundColor: category.color.hex
+                                            }
+                                        }>{category.category}</span>
+                                    )
+                                }))}
+                            </div> */}
                         </div>
                         <p className="text-blackish font-light">{project.description}</p>
                         <a href={project.url} target="_blank" className="italic text-sm font-bold text-grayish">Go to project <i class="fas fa-arrow-right"></i></a>
