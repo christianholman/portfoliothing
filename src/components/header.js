@@ -2,7 +2,7 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
-import headerImage from '../images/headshot.png'
+import headerImage from '../images/headshot.jpg'
 
 const Header = () => (
   <div>   
