@@ -33,7 +33,7 @@ const IndexPage = ({ data }) => (
           
           
           <br/>
-          <img class="my-5 rounded shadow w-full" src="https://media.licdn.com/dms/image/C4D16AQHIR-i6uAu33A/profile-displaybackgroundimage-shrink_350_1400/0?e=1576108800&v=beta&t=hq-kEYx-JDvozYD6JyCKkysMLWH58gM4iwUeqkKjQII"/>
+          <img class="my-5 rounded shadow w-full" src="https://i.imgur.com/PmtIwNQ.jpg"/>
 
           Best wishes,
           <br/>
